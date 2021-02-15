@@ -1,4 +1,4 @@
-def holla():
+def main():
   print("Keep it logically awesome.")
 
   f = open("quotes.txt")
@@ -8,4 +8,4 @@ def holla():
   print(quotes[0])
 
 if __name__== "__main__":
-  holla()
+  main()
